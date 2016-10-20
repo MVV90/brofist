@@ -34,10 +34,7 @@ class Menu extends Component {
   }
 };
 
-
 import Cards from './components/cards';
-//    var Cards = require('./components/cards');
-
 // Todo move to separate file
 class FillArea extends Component {
   render() {
