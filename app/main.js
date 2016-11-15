@@ -9,11 +9,11 @@ View
 
 import { Provider } from 'react-redux'
 import configureStore from './store/configureStore'
-import BaseLayout from './layout'
+import Layout from './layout'
 
-var App = ({ store }) => (
+const App = ({ store }) => (
   <Provider store={store}>
-    <BaseLayout fancy={777} store={configureStore()}/>
+    <Layout fancy={777} store={store}/>
   </Provider>
 );
 

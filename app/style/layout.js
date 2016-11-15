@@ -6,6 +6,16 @@ var width = Dimensions.get('window').width; // full width
 var height = Dimensions.get('window').height; // full height
 
 export default StyleSheet.create({
+
+  text: {
+    color: 'white',
+  },
+
+  text_padding: {
+    left: 5,
+    top: 5,
+  },
+
   base: {
     width: width,
     height: height,
@@ -52,6 +62,19 @@ export default StyleSheet.create({
     textAlign: 'center',
     margin: 10,
     color: 'white'
+  },
+
+  navContainer: {
+    flexDirection: 'row',
+    height: 25,
+    width: 225,
+    backgroundColor: colors.MENU_LT_GREEN
+  },
+  navLeftBlock: {
+    flexDirection: 'row',
+    height: 25,
+    width: 25,
+    backgroundColor: colors.MENU_GREEN
   },
 
   broImage: {

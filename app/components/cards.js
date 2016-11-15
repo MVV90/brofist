@@ -37,11 +37,9 @@ class NoMoreCards extends Component {
 
 const Cards = [
   {name: 'Bill Hankis', image: 'https://media.giphy.com/media/MuCGA1pRiH68g/giphy.gif'},
-  {name: 'Albert', image: 'https://media.giphy.com/media/127qceXRfxn9HW/giphy.gif'},
   {name: 'ゴジラ', image: 'https://media.giphy.com/media/gLy8OMRImEADu/giphy.gif'},
   {name: 'dog', image: 'https://media.giphy.com/media/vIEJcdeRAK1Es/giphy.gif'},
-  {name: 'Charles', image: 'https://i.kinja-img.com/gawker-media/image/upload/s--vwJAzCfC--/c_fit,fl_progressive,q_80,w_636/19ap97d3cc2evgif.gif'},
-  {name: 'Douglas', image: 'https://i.kinja-img.com/gawker-media/image/upload/s--eIOluKm_--/c_fit,fl_progressive,q_80,w_636/19apaccyhz95sgif.gif'},
+  {name: 'Douglas', image: 'https://i.kinja-img.com/gawker-media/image/upload/s--vwJAzCfC--/c_fit,fl_progressive,q_80,w_636/19ap97d3cc2evgif.gif'},
 ];
 
 export default React.createClass({
