@@ -1,2 +1,2 @@
 # brofist
-Brofist - Find bros and no-bros
+Brofist - Find bros and non-bros
